@@ -34,7 +34,7 @@ SHARED_APPS = [
     'django_tenants',
     'clients',
     'public',
-
+    'rest_framework',
 
 
     'django.contrib.admin',
@@ -47,7 +47,6 @@ SHARED_APPS = [
 
 
 TENANT_APPS = [
-    'api',
 
 
     'django.contrib.contenttypes',

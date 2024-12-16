@@ -8,5 +8,7 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
     path('', index, name='home'),
+    path('sign-up/', TenantSignupView.as_view(), name="sign-up"),
+
 
 ]
